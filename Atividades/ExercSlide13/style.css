@@ -1,0 +1,26 @@
+
+.container {
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+    text-align: justify;
+    border-style: solid;
+    padding: 10px;
+    margin-top: 225px;
+    
+}
+
+em {
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+h1 {
+    font-family: tahoma, sans-serif;
+}
+
+p{
+   font-size: 16px;
+   font-family: arial, sans-serif; 
+}
+

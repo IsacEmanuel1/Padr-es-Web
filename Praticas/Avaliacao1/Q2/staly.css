@@ -1,0 +1,29 @@
+.tabela-despesas {
+    border: 1px solid rgb(189, 189, 189);
+    border-collapse: collapse;
+    font-size: 200%;
+}
+
+.tabela-despesas thead th {
+    border: 1px solid rgb(189, 189, 189);
+    background-color: chartreuse;
+    padding: 10px;
+}
+
+.tabela-despesas tbody td {
+    border: 1px solid rgb(189, 189, 189);
+    padding: 10px;
+}
+
+.tabela-despesas tfoot th {
+    border: 1px solid rgb(189, 189, 189);
+    padding: 15px;
+}
+
+.verde-escuro {
+    background-color: chartreuse;
+}
+
+.verde-calro {
+    background-color: rgb(214, 255, 174);
+}

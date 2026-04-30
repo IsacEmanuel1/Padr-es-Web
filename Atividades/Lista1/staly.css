@@ -1,0 +1,116 @@
+/*Navegação*/
+
+.ulNavI{
+  transform: translate(770px, 825px);
+  display: inline-block;
+}
+
+.ulNav{
+   transform: translate(770px, 825px);
+  display: inline-block;
+}
+
+nav li {
+  display: inline-block;
+  background-color: rgb(120, 234, 6);
+  border: solid;
+  padding: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+/*Pagina Inicial*/
+
+.logoIF {
+  width: 180px;
+  transform: translate(850px, -40px);
+}
+
+.Ititulos {
+  transform: translate(600px, 200px);
+  display: inline-block;
+}
+
+/* Pagina Questão 1 */
+
+.pequeno {
+  color: rgb(104, 205, 3);
+  transform: translateY(-50px);
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.h1Q1 {
+  text-align: justify;
+  margin-left: 25%;
+  margin-right: 25%;
+  transform: translateY(-70px);
+  color: rgb(34, 97, 208);
+}
+
+.subTitulo {
+  transform: translateY(-80px);
+  margin-left: 25%;
+  margin-right: 25%;
+  color: rgb(132, 132, 132);
+}
+
+.p1Q1 {
+  margin-left: 25%;
+  margin-right: 25%;
+  transform: translateY(-65px);
+  text-align: justify;
+}
+
+.p2Q1 {
+  margin-left: 25%;
+  margin-right: 25%;
+  transform: translateY(-65px);
+  text-align: justify;
+}
+
+.imgQ1 {
+  transform: translateY(-60px);
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.conteudo {
+  width: 100%;
+  margin-top: 3%;
+}
+
+/*Pagina Questão 2*/
+
+.pQ2 {
+  border: solid;
+  display: inline-block;
+  padding: 1%;
+  transform: translate(600px, 200px);
+  background-color: rgb(61, 206, 255);
+}
+
+.emQ2{
+  color: rgb(85, 85, 85);
+}
+
+.stQ2{
+  color: brown;
+}
+
+/* Pagina Questão 3 */
+
+.olQ3{
+  transform: translate(480px, 100px);
+  display: inline-block;
+  font-size: 145%;
+}
+
+.h1Q3{
+  transform: translate(720px, -150px);
+  display: inline-block;
+}
+

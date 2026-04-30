@@ -1,0 +1,25 @@
+.quadro {
+    border: 2px solid black;
+    display: inline-block;
+    transform: translate(36%, 80%);
+    background-color: aquamarine;
+    text-align: center;
+    font-size: medium;
+    color: #f00;
+    font-family: Arial
+}
+
+p{
+    padding: 20px;
+}
+
+.titulo{
+    font-weight: 100px;
+    color: #00f;
+}
+
+.lista{
+    text-align: center;
+    font-size: medium;
+    display: inline-block;
+}

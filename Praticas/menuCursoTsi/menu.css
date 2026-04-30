@@ -1,0 +1,35 @@
+nav ul {
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 2%;
+    background-color: rgb(38, 17, 233);
+    padding: 4px;   
+    width: 100px;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 4px;
+    font-size: 16px;
+}
+
+ul.niv1 {
+    list-style-type: none;
+}
+
+ul.niv2 {
+    list-style-type: disc;
+}
+
+ul.niv3 {
+    list-style-type: disc;
+}
+
+ul.niv4 {
+    list-style-type: disc;
+}

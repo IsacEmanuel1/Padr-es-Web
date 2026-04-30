@@ -1,0 +1,17 @@
+.tabela-frutas {
+    border: 1px solid black;
+    width: 20%;
+    font-size: 260%;
+}
+
+.tabela-frutas thead th {
+    border: 1px solid black;
+}
+
+.tabela-frutas tbody td {
+    border: 1px solid black;
+}
+
+.tabela-frutas tfoot th {
+    border: 1px solid black;
+}
