@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Cadastro Funcionario</title>
+</head>
+
+<body>
+    <Header>
+        <h1><strong>formulário para cadastro de um novo funcionário</strong></h1>
+    </Header>
+
+    <section class="contanner-formulario">
+        <form action="" class="formulario">
+            <div class="dados-pessoal">
+                <label for="nome"><strong>Nome:</strong></label>
+                <input type="text" id="nome">
+                <label for="matricula"><strong>Matricula:</strong></label>
+                <input type="number" id="matriicula">
+                <label for="CPF"><strong>CPF:</strong></label>
+                <input type="number" id="CPF" max="11">
+            </div>
+            <div class="dados-selecao">
+                <p>
+                    <label for="">Cargo, que pode ser uma das opções abaixo:
+                        <select name="cargo" id="">
+                            <option selected="selected">Cargos</option>
+                            <option>Professor</option>
+                            <option>técnico administrativo</option>
+                            <option>técnico de laboratório</option>
+                            <option>Pedagoga(o)</option>
+                            <option>Assistente de alunos</option>
+                        </select>
+                    </label>
+                </p>
+            </div>
+            <div class="endereco-contato">
+                <label for="endereco"><strong>Endereço:</strong></label>
+                <input type="text" id="endereco">
+                <label for="numeroTelefone"><strong>Número de telefone:</strong></label>
+                <input type="number" id="numeroTelefone">
+            </div>
+
+
+
+        </form>
+    </section>
+</body>
+
+</html>
