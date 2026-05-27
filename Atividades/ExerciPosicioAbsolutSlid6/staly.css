@@ -1,0 +1,33 @@
+h1 {
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    z-index: 3;
+    font-size: large;
+    font-family: tahoma, geneva;
+    background-color: aqua;
+    
+}
+
+.fgimg {
+    position: absolute;
+    top: 40px;
+    left: 50px;
+    z-index: 2;
+}
+
+.bgimg {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    
+}
+
+.contanner{
+    position: absolute;
+    top: 200px;
+    left: 600px;
+    background-color: aqua;
+    padding: 20px;
+}
