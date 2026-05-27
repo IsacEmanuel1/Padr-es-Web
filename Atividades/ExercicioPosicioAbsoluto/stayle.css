@@ -1,0 +1,10 @@
+p {
+  position: absolute;
+  left: 100px;
+  top: 150px;
+}
+img {
+  position: absolute;
+  left: 100px;
+  top: 20px;
+}
