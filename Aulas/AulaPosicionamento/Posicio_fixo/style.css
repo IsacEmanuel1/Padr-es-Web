@@ -1,0 +1,12 @@
+p.fixed {
+    position: fixed;
+    top: 30px;
+    right: 5px;
+}
+
+image.fixed{
+    position: fixed;
+    top: 30px;
+    right: 5px;
+
+}
