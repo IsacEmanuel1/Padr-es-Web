@@ -1,29 +1,253 @@
-*{
+
+* {
     margin: 0;
     padding: 0;
-    box-sizing: 0;
     box-sizing: border-box;
 }
-.App{
-   display: flex;
-   height: 944px;
-   flex-direction: column;
-   align-items: flex-start;
-   flex-shrink: 0;
-   align-self: stretch;
-   background: linear-gradient(135deg, #F8FAFC 0%, #F1F5F9 100%);
-}
 
-header{
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f4f8;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    align-self: stretch;
-    background: linear-gradient(90deg, #096 0%, #009689 100%);
-    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.10), 0 4px 6px -4px rgba(0, 0, 0, 0.10);
 }
 
-.container-Header{
+
+.cabecalho {
+    background-color: #059669;
     display: flex;
-    width: 1536px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo-icone {
+    width: 40px;
+    height: 40px;
+    filter: brightness(0) invert(1);
+}
+
+.logo-texto {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-titulo {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.logo-subtitulo {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 12px;
+}
+
+.menu {
+    display: flex;
+    gap: 8px;
+}
+
+.menu-link {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 8px 16px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    transition: background-color 0.2s;
+}
+
+.menu-link{
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+.menu-link {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.menu-icone {
+    width: 16px;
+    height: 16px;
+    filter: brightness(0) invert(1);
+}
+
+
+.conteudo {
+    display: flex;
+    gap: 24px;
+    padding: 30px 40px;
+    flex: 1;
+}
+
+
+.coluna-esquerda {
+    flex: 2;
+}
+
+.coluna-direita {
+    flex: 1;
+}
+
+.cartao {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.cartao-titulo {
+    color: #1f2937;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.cartao-texto {
+    color: #4b5563;
+    font-size: 15px;
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+
+.linha-cartoes {
+    display: flex;
+    gap: 16px;
+}
+
+.cartao-info {
+    flex: 1;
+    border-radius: 10px;
+    padding: 20px;
+    border: 1px solid;
+}
+
+.cartao-verde {
+    background-color: #ecfdf5;
+    border-color: #a7f3d0;
+}
+
+.cartao-azul {
+    background-color: #eff6ff;
+    border-color: #bfdbfe;
+}
+
+.cartao-info-icone {
+    width: 32px;
+    height: 32px;
+    margin-bottom: 12px;
+}
+
+
+.cartao-info-titulo {
+    color: #1f2937;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.cartao-info-texto {
+    color: #6b7280;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+.noticias-cabecalho {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.noticias-icone {
+    width: 24px;
+    height: 24px;
+}
+
+.noticias-titulo {
+    color: #1f2937;
+    font-size: 22px;
+}
+
+.noticia {
+    margin-bottom: 16px;
+}
+
+.noticia-texto {
+    color: #4b5563;
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 6px;
+}
+
+.noticia-tempo {
+    color: #059669;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.divisor {
+    height: 1px;
+    background-color: #e5e7eb;
+    margin: 16px 0;
+}
+
+.botao-noticias {
+    display: block;
+    text-align: center;
+    background-color: #059669;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-size: 14px;
+    margin-top: 24px;
+    transition: background-color 0.2s;
+}
+
+.botao-noticias {
+    background-color: #047857;
+}
+
+.rodape {
+    background-color: #111827;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 40px;
+    margin-top: auto;
+}
+
+.rodape-esquerda {
+    color: #9ca3af;
+    font-size: 13px;
+}
+
+.rodape-destaque {
+    color: #10b981;
+    font-weight: 600;
+}
+
+.rodape-direita {
+    display: flex;
+    gap: 16px;
+}
+
+.rodape-direita a {
+    color: #9ca3af;
+    text-decoration: none;
+    font-size: 13px;
+    transition: color 0.2s;
+}
+
+.rodape-direita a:hover {
+    color: #ffffff;
 }

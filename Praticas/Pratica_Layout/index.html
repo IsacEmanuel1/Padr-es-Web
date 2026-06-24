@@ -1,28 +1,95 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <title>IFRN - Instituto Federal</title>
+    <link rel="stylesheet" href="../Pratica_Layout/style.css">
 </head>
 <body>
-    <div class="App">
-        <header>
-            <div class="container-Header">
-                <div class="container-logo">
-                    <div class="logo">
-                        <img src="Icon.svg" alt="">
-                    </div>
-                    <div class="titulo-logo">
-                        <h1>IFRN</h1>
-                    </div>
-                    <div class="paragrafo-logo">
 
+    <header class="cabecalho">
+        <div class="logo">
+            <img src="../Pratica_Layout/Icon.svg" alt="Logo IFRN" class="logo-icone">
+            <div class="logo-texto">
+                <span class="logo-titulo">IFRN</span>
+                <span class="logo-subtitulo">Instituto Federal</span>
+            </div>
+        </div>
+        <nav class="menu">
+            <a href="" class="menu-link">Home</a>
+            <a href="" class="menu-link">
+                <img src="https://cdn-icons-png.flaticon.com/512/684/684908.png" alt="Campi" class="menu-icone"> Campi
+            </a>
+            <a href="" class="menu-link">
+                <img src="https://cdn-icons-png.flaticon.com/512/1380/1380338.png" alt="Forum" class="menu-icone"> Forum
+            </a>
+            <a href="" class="menu-link">
+                <img src="../Pratica_Layout/Icon.svg" alt="Cursos" class="menu-icone"> Cursos
+            </a>
+            <a href="" class="menu-link">
+                <img src="https://cdn-icons-png.flaticon.com/512/561/561127.png" alt="Contato" class="menu-icone"> Contato
+            </a>
+        </nav>
+    </header>
+
+    <main class="conteudo">
+        <section class="coluna-esquerda">
+            <div class="cartao">
+                <h1 class="cartao-titulo">Home</h1>
+                <p class="cartao-texto">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce in sem interdum placerat condimentum. Quisque cursus ex non lacus. Cras a lorem accumsan, semper tellus sed, ornare enim. Suspendisse potenti. Vestibulum et quam cursus, lacinia erat, condimentum neque. Sed interdum cursus nibh, eget scelerisque ante arcu sed. Nunc, aliquam tellus gravida sagittis. Phasellus sed semper lectus, quis aliquam erat. Aliquam bibendum ante eget id nunc, aliquam erat. Integer tincidunt urna imperdiet dictum cursus ac, commodo facilisis enim.
+                </p>
+                <div class="linha-cartoes">
+                    <div class="cartao-info cartao-verde">
+                        <img src="https://cdn-icons-png.flaticon.com/512/2910/2910791.png" alt="Cursos" class="cartao-info-icone">
+                        <h3 class="cartao-info-titulo">Cursos Disponiveis</h3>
+                        <p class="cartao-info-texto">Veja todas as opcoes de cursos tecnicos e superiores.</p>
+                    </div>
+                    <div class="cartao-info cartao-azul">
+                        <img src="https://cdn-icons-png.flaticon.com/512/1380/1380338.png" alt="Comunidade" class="cartao-info-icone">
+                        <h3 class="cartao-info-titulo">Comunidade Ativa</h3>
+                        <p class="cartao-info-texto">Participe dos foruns e conecte-se com outros estudantes.</p>
                     </div>
                 </div>
             </div>
-        </header>
-    </div>
+        </section>
+
+        <aside class="coluna-direita">
+            <div class="cartao">
+                <div class="noticias-cabecalho">
+                    <img src="https://cdn-icons-png.flaticon.com/512/3239/3239952.png" alt="Noticias" class="noticias-icone">
+                    <h2 class="noticias-titulo">Noticias</h2>
+                </div>
+                <div class="noticia">
+                    <p class="noticia-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam placerat tempor elementum.</p>
+                    <span class="noticia-tempo">Ha 2 horas</span>
+                </div>
+                <div class="divisor"></div>
+                <div class="noticia">
+                    <p class="noticia-texto">Duis cursus eros id nunc aliquam, quis vehicula ligula faucibus.</p>
+                    <span class="noticia-tempo">Ha 5 horas</span>
+                </div>
+                <div class="divisor"></div>
+                <div class="noticia">
+                    <p class="noticia-texto">Vestibulum ante ipsum primis in faucibus orci luctus et aliquam.</p>
+                    <span class="noticia-tempo">Ontem</span>
+                </div>
+                <a href="#" class="botao-noticias">Ver Todas as Noticias</a>
+            </div>
+        </aside>
+    </main>
+
+    <footer class="rodape">
+        <div class="rodape-esquerda">
+            <span>Desenvolvido por </span>
+            <span class="rodape-destaque">IFRN 2026</span>
+        </div>
+        <div class="rodape-direita">
+            <a href="#">Politica de Privacidade</a>
+            <a href="#">Termos de Uso</a>
+            <a href="#">Contato</a>
+        </div>
+    </footer>
 </body>
 </html>
