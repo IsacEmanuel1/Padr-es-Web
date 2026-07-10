@@ -1,0 +1,36 @@
+
+.cabecalho {
+    background-color: #198754;
+    color: white;
+    padding: 20px 0;
+}
+
+.carousel-item img {
+    height: 300px;
+    object-fit: cover;
+}
+
+.card {
+    height: 100%;
+}
+
+.card-img-top {
+    height: 180px;
+    object-fit: cover;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-body .btn {
+    margin-top: auto;
+}
+
+.rodape {
+    background-color: #198754;
+    color: white;
+    padding: 20px 0;
+    margin-top: 89px;
+}
